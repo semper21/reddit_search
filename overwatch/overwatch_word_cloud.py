@@ -25,7 +25,7 @@ if __name__ == "__main__":
 
     # ow_logo_mask = np.array(Image.open('overwatch_logo_transparent.png'))
 
-    stopwords = list(set(STOPWORDS)) + ['will', 'https', 'gfycat', 'game', 'team', 'play', 'player']
+    stopwords = set(STOPWORDS) | {'will', 'https', 'gfycat', 'game', 'team', 'play', 'player'}
     wc = WordCloud(background_color="white", max_words=100, width=800, height=400,
                    stopwords=stopwords, contour_width=3, contour_color='steelblue')
 
