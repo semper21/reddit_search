@@ -1,4 +1,4 @@
-# In search for interesting observations on Reddit
+# In search of interesting observations on Reddit
 Bots that crawl through Reddit to extract relevant/interesting information
 
 ## Getting started
